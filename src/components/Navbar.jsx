@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <header className='max-w-screen-3xl xl:px-28 px-4 absolute top-0 right-0 left-0 '>
-      <nav className='flex justify-between w-full  items-center  md:py-4 pt-6 pb-3'>
+      <nav className='flex justify-between w-full  items-center  md:py-0 pt-4 pb-3'>
         <FaSearch className='text-Black w-5 h-5 cursor-pointer hidden md:block' />
 
         {/* logo */}
         <a href='/'>
-          <img src={logo} alt='' />
+          <img src={logo} alt='' className='w-29 h-28' />
         </a>
 
         {/* account and shopping btn */}

@@ -13,9 +13,9 @@ const Footer = () => {
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
-              <img src="/logo.svg" alt="" />
+              <img src="/logo.png" alt="" className="w-36 h-33"/>
             </Link>
-            <p className="my-8 text-Black/75">
+            <p className="my-4 text-Black/75">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
@@ -97,7 +97,7 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="bg-Black">
-      <p className="text-white text-center items-center py-3">© {currentYear} Coral, Inc.</p>
+      <p className="text-white text-center items-center py-3">© {currentYear} Espoir, Inc.</p>
       </div>
     </footer>
   );
